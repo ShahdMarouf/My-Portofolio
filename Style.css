@@ -539,3 +539,31 @@ margin-left: 10px;
   from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+
+#userEmail {
+  overflow-wrap: anywhere;
+  font-size: 14px;
+}
+
+@media (max-width: 576px) {
+  .contact .custom-card {
+      margin: 0 !important;
+  }
+
+  .contact h1 {
+      font-size: 1.7rem;
+  }
+
+  .contact p {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+  }
+
+  .contact .container {
+      padding-left: 12px;
+      padding-right: 12px;
+  }
+}
+
+
